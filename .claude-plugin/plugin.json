@@ -1,0 +1,11 @@
+{
+  "name": "mente",
+  "version": "0.1.0",
+  "description": "Gimnasio mental: cálculo, Stroop y preguntas de la tarea encima del prompt mientras Claude trabaja, con logros",
+  "types": "./types/index.d.ts",
+  "license": "PolyForm-Strict-1.0.0",
+  "author": {
+    "name": "JS Soft Development",
+    "url": "https://github.com/jssoftdevelopment"
+  }
+}

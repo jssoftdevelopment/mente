@@ -1,0 +1,5 @@
+{
+  "name": "jssoftdevelopment",
+  "owner": { "name": "JS Soft Development" },
+  "plugins": [{ "name": "mente", "source": "./" }]
+}
