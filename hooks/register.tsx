@@ -624,10 +624,10 @@ async function drawExercise($: EngineInterface, { Box, Button, Text }: Elements,
             <Text weight="bold">🧠 {ex.question}</Text>
           ) : (
             <>
+              <Text>🎨 {ex.question}</Text>
               <Text weight="bold" color={ex.ink}>
-                🎨 {ex.word}
+                {ex.word}
               </Text>
-              <Text>{ex.question}</Text>
             </>
           )}
           {buttons}
