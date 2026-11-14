@@ -1,14 +1,17 @@
+export type ExerciseKind = 'calc' | 'stroop' | 'quiz'
+
 export type Exercise = {
-  kind: 'calc' | 'quiz' | 'stroop'
+  kind: ExerciseKind
   question: string
   options: string[]
-  /** índice de la opción correcta */
+  /** Index of the correct option. */
   answer: number
   why?: string
-  /** stroop: la palabra escrita y el color (hex) con que se pinta */
+  /** Stroop only: the written word and the ink color it is drawn in. */
   word?: string
   ink?: string
 }
+
 export type Score = { ok: number; total: number }
 
 declare module 'claude-code' {
@@ -19,8 +22,8 @@ declare module 'claude-code' {
       exercise: Exercise | null
       feedback: string | null
       level: number
-      streak: number
       turnScore: Score
+      paneUp: boolean
     }
   }
 }
