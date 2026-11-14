@@ -541,7 +541,6 @@ async function setEnabled($: EngineInterface, value: boolean) {
     await update($, exercise, () => null)
     await update($, feedback, () => null)
     await closePane($)
-    $.ui.toast('🧠 mente apagado · /mente para volver a encenderlo')
   } else if (await read($, busy)) {
     await showExercise($)
   }
