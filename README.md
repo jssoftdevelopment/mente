@@ -1,4 +1,4 @@
-# 🧠 mente — gimnasio mental para Claude Code
+# 🧠 mente — trabajo mental para Claude Code
 
 Mientras Claude trabaja (genera, ejecuta scripts, lee ficheros…), aparece un ejercicio encima del prompt para que entrenes la cabeza en vez de coger el móvil. Cuando Claude termina, la franja desaparece.
 
