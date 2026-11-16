@@ -27,7 +27,7 @@ La primera vez verás encima del prompt *"🧠 ¿Activar ejercicios mentales mie
 Rotan entre tres tipos:
 
 - **🧠 Cálculo mental**: sumas, restas, tablas, divisiones, porcentajes, cuadrados y series. 5 niveles que se adaptan solos: 3 cuentas seguidas acertadas suben uno y un fallo lo baja.
-- **🎨 Stroop**: la palabra dice un color y está pintada de otro, y eliges el color de la tinta. Usa la paleta Okabe-Ito (azul, amarillo, naranja y rosa), que se distingue con cualquier tipo de daltonismo. Se desactiva con `/mente stroop off`.
+- **🎨 Stroop**: la palabra dice un color y está pintada de otro, y eliges el color de la tinta. Usa azul, celeste, amarillo y gris: colores que conservan su nombre con daltonismo rojo-verde (el 99 % de los casos), así que nadie tiene que adivinar cómo se llama lo que ve. Se desactiva con `/mente stroop off`.
 - **💡 Preguntas sobre la tarea**: preguntas tipo test sobre los conceptos de lo que Claude está haciendo en ese momento. Las genera Haiku (cuesta unos pocos tokens por turno). Se desactivan con `/mente tarea off`.
 
 ## Cómo responder

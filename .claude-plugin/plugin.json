@@ -1,6 +1,6 @@
 {
   "name": "mente",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Gimnasio mental: cálculo, Stroop y preguntas de la tarea encima del prompt mientras Claude trabaja, con logros",
   "types": "./types/index.d.ts",
   "license": "PolyForm-Strict-1.0.0",

@@ -120,13 +120,17 @@ function makeCalc(lvl: number): Exercise {
   return withOptions({ kind: 'calc', question }, String(answer), wrong.map(String))
 }
 
-// Okabe-Ito colors: distinguishable under every common color vision deficiency,
-// and they also differ in lightness.
+// Stroop asks the player to NAME the ink, so every ink must keep its name under
+// red-green color blindness, not just look different. Protan/deutan vision only
+// keeps the blue-yellow axis plus lightness, so the palette lives there: green,
+// red, orange, brown, pink and purple all turn into grays or ochres for them.
+// Each pair is >= 26 CIEDE2000 apart for normal, protan and deutan vision, they
+// map to distinct 16-color ANSI codes, and all have >= 3.9:1 contrast on black.
 const INKS = [
-  { name: 'AZUL', hex: '#0072B2' },
+  { name: 'AZUL', hex: '#1A66D9' },
+  { name: 'CELESTE', hex: '#7FD0FF' },
   { name: 'AMARILLO', hex: '#F0E442' },
-  { name: 'NARANJA', hex: '#E69F00' },
-  { name: 'ROSA', hex: '#CC79A7' },
+  { name: 'GRIS', hex: '#808080' },
 ] as const
 
 function makeStroop(): Exercise {
